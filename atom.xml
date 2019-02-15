@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://17shiyan2.cn/"/>
-  <updated>2019-02-14T08:48:11.707Z</updated>
+  <updated>2019-02-15T02:59:31.776Z</updated>
   <id>https://17shiyan2.cn/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>当你要临时分享文件时，这些免费免注册的工具可以帮上忙</title>
+    <link href="https://17shiyan2.cn/2019/02/15/%E5%BD%93%E4%BD%A0%E8%A6%81%E4%B8%B4%E6%97%B6%E5%88%86%E4%BA%AB%E6%96%87%E4%BB%B6%E6%97%B6%EF%BC%8C%E8%BF%99%E4%BA%9B%E5%85%8D%E8%B4%B9%E5%85%8D%E6%B3%A8%E5%86%8C%E7%9A%84%E5%B7%A5%E5%85%B7%E5%8F%AF%E4%BB%A5%E5%B8%AE%E4%B8%8A%E5%BF%99/"/>
+    <id>https://17shiyan2.cn/2019/02/15/当你要临时分享文件时，这些免费免注册的工具可以帮上忙/</id>
+    <published>2019-02-15T02:28:01.000Z</published>
+    <updated>2019-02-15T02:59:31.776Z</updated>
+    
+    <content type="html"><![CDATA[<p>如果需要跟好友分享文件，你会有哪些方案：</p><ul><li>社交工具传输文件，微信、QQ、Telegram；</li><li>网盘存储服务，Dropbox、Box、OneDrive、Google Drive 或者是神奇的国内网盘服务商；</li><li>Others，包括传统的电邮附件、技术派的自建云盘存储等等。</li></ul><p>以上文件分享的方案都有一定的局限前提，比如社交平台分享文件首先需要添加好友；网盘分享会遇到大文件占用「昂贵」的空间。如果你只是临时性将文件分享给朋友，而不希望专门注册账号，更喜欢匿名分享文件的方式，那么下面这几款文件分享工具值得使用体验。</p><h3 id="Firefox-Send"><a href="#Firefox-Send" class="headerlink" title="Firefox Send"></a>Firefox Send</h3><p><img src="/2019/02/15/当你要临时分享文件时，这些免费免注册的工具可以帮上忙/firefosend.jpg" alt="firefosend"></p><p>Firefox Send 是火狐浏览器基金会 Mozilla 推出的一项web文件共享服务，上传的文件资料将会在24小时后自动删除，所以它也具有阅后即焚的特性。</p><a id="more"></a><p>Firefox Send 网站主界面注明了服务特性：</p><ul><li>通过安全、私密且受加密的链接发送文件，链接到期后文件将从网上彻底抹除；</li><li>为了保证服务的稳定性，建议用户上传的文件大小不超过 1GB（经过测试支持上传超过 1GB 大小的文件）。</li></ul><p><img src="/2019/02/15/当你要临时分享文件时，这些免费免注册的工具可以帮上忙/firefosend2.gif" alt="firefosend2"></p><p><a href="https://send.firefox.com" target="_blank" rel="noopener">Firefox Send</a> 支持拖拽文件上传操作，在上传的过程中，网站会以百分比和圆圈图形的界面友好地显示已上传的进度。</p><p>  Firefox Send 无需注册登录账号，只要浏览器不是太落伍的话即可完成上传和下载工作。当用户上传完文件后，将自动转到文件分享页面，通过Firefox Send专门的分享链接即可与好友快速便捷分享文件。 用户还能在分享页面中启用密码保护下载和设置文件的下载次数，更好地保证了文件的安全私密性。</p><p><img src="/2019/02/15/当你要临时分享文件时，这些免费免注册的工具可以帮上忙/firefosend3.jpg" alt="firefosend3"></p><p>目前，Firefox Send 已经在 Github 上正式<a href="https://github.com/mozilla/send" target="_blank" rel="noopener">开源</a>，感兴趣的用户甚至可以自行搭建存储服务。</p><p><a href="https://send.firefox.com/download/7d988a542a/#wDV1JY7BhnROlv_er3uMzA" target="_blank" rel="noopener">https://send.firefox.com/download/7d988a542a/#wDV1JY7BhnROlv_er3uMzA</a></p><p>密码：12345</p><hr><h3 id="SendAnyWhere"><a href="#SendAnyWhere" class="headerlink" title="SendAnyWhere"></a>SendAnyWhere</h3><p><img src="/2019/02/15/当你要临时分享文件时，这些免费免注册的工具可以帮上忙/SendAnywhere.jpg" alt="SendAnywhere"></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;如果需要跟好友分享文件，你会有哪些方案：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;社交工具传输文件，微信、QQ、Telegram；&lt;/li&gt;
+&lt;li&gt;网盘存储服务，Dropbox、Box、OneDrive、Google Drive 或者是神奇的国内网盘服务商；&lt;/li&gt;
+&lt;li&gt;Others，包括传统的电邮附件、技术派的自建云盘存储等等。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;以上文件分享的方案都有一定的局限前提，比如社交平台分享文件首先需要添加好友；网盘分享会遇到大文件占用「昂贵」的空间。如果你只是临时性将文件分享给朋友，而不希望专门注册账号，更喜欢匿名分享文件的方式，那么下面这几款文件分享工具值得使用体验。&lt;/p&gt;
+&lt;h3 id=&quot;Firefox-Send&quot;&gt;&lt;a href=&quot;#Firefox-Send&quot; class=&quot;headerlink&quot; title=&quot;Firefox Send&quot;&gt;&lt;/a&gt;Firefox Send&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/2019/02/15/当你要临时分享文件时，这些免费免注册的工具可以帮上忙/firefosend.jpg&quot; alt=&quot;firefosend&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Firefox Send 是火狐浏览器基金会 Mozilla 推出的一项web文件共享服务，上传的文件资料将会在24小时后自动删除，所以它也具有阅后即焚的特性。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="-办公技巧" scheme="https://17shiyan2.cn/categories/%E5%8A%9E%E5%85%AC%E6%8A%80%E5%B7%A7/"/>
+    
+    
+      <category term="实用工具" scheme="https://17shiyan2.cn/tags/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/"/>
+    
+      <category term="办公技巧" scheme="https://17shiyan2.cn/tags/%E5%8A%9E%E5%85%AC%E6%8A%80%E5%B7%A7/"/>
+    
+  </entry>
   
   <entry>
     <title>VB工具箱的项目</title>

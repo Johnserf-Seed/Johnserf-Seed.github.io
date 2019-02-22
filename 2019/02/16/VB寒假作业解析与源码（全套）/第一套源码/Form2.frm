@@ -69,7 +69,7 @@ Dim r As Integer
     
     If m > 0 And m < 13 Then
         If m = 1 Or m = 3 Or m = 5 Or m = 7 Or m = 8 Or m = 10 Or m = 12 Then
-            Label3.Caption = y & "年的" & m & "月份有" & "31天" 'Day(DateSerial(yy, mm + 1, 0)) & "天" '
+            Label3.Caption = y & "年的" & m & "月份有" & "31天"
         ElseIf m = 4 Or m = 6 Or m = 9 Or m = 11 Then
             Label3.Caption = y & "年的" & m & "月份有" & "30天"
         Else

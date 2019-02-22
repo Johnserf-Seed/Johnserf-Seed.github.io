@@ -27,14 +27,18 @@ Begin VB.Form Form3
    End
    Begin VB.ListBox List2 
       Height          =   4020
+      ItemData        =   "Form3.frx":0000
       Left            =   4800
+      List            =   "Form3.frx":0002
       TabIndex        =   1
       Top             =   480
       Width           =   1695
    End
    Begin VB.ListBox List1 
       Height          =   4020
+      ItemData        =   "Form3.frx":0004
       Left            =   720
+      List            =   "Form3.frx":0006
       TabIndex        =   0
       Top             =   480
       Width           =   1695

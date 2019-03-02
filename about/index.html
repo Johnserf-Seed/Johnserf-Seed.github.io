@@ -135,6 +135,8 @@ tpwidget("show");</script>
 <meta name="twitter:image" content="https://17shiyan2.cn/about/1.jpg">
 
 
+  
+
 
   <link rel="alternate" href="/atom.xml" title="SG Blog" type="application/atom+xml">
 
@@ -437,9 +439,6 @@ tpwidget("show");</script>
           </div>
           
 
-  
-    <div class="comments" id="comments">
-    </div>
   
 
 
@@ -826,30 +825,6 @@ setInterval("createtime()",250);
 
 
 
-  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-  
-  
-  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
-  
-  <script type="text/javascript">
-    var GUEST = ['nick','mail','link'];
-    var guest = 'nick,mail,link';
-    guest = guest.split(',').filter(function (item) {
-      return GUEST.indexOf(item)>-1;
-    });
-    new Valine({
-        el: '#comments' ,
-        verify: false,
-        notify: false,
-        appId: 'xqWzb7mV6E8kmgFpLUr97RbO-gzGzoHsz',
-        appKey: 'TozQ6FpHrXvSb1i038hvmbUT',
-        placeholder: 'ﾉ≧∀≦)o来啊，快活啊!',
-        avatar:'mm',
-        guest_info:guest,
-        pageSize:'10' || 10,
-    });
-  </script>
-
 
 
   
@@ -1182,7 +1157,7 @@ setInterval("createtime()",250);
 
   
   <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
-  <script>AV.initialize("IH4yNURBfBQ1wfrfLPsmRe2v-gzGzoHsz", "nknHsvmyUQlkxD9ojHGY1im5");</script>
+  <script>AV.initialize("1gaG28SGWf4Ohm2krP9ieAIL-gzGzoHsz", "TCls0BxgaLiyOudzxKPTS3Uu");</script>
   <script>
     function showTime(Counter) {
       var query = new AV.Query(Counter);
@@ -1252,25 +1227,9 @@ setInterval("createtime()",250);
             });
           } else {
             
-              var newcounter = new Counter();
-              /* Set ACL */
-              var acl = new AV.ACL();
-              acl.setPublicReadAccess(true);
-              acl.setPublicWriteAccess(true);
-              newcounter.setACL(acl);
-              /* End Set ACL */
-              newcounter.set("title", title);
-              newcounter.set("url", url);
-              newcounter.set("time", 1);
-              newcounter.save(null, {
-                success: function(newcounter) {
-                  var $element = $(document.getElementById(url));
-                  $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
-                },
-                error: function(newcounter, error) {
-                  console.log('Failed to create');
-                }
-              });
+              var $element = $(document.getElementById(url));
+              $element.find('.leancloud-visitors-count').text('Counter not initialized! See more at console err msg.');
+              console.error('ATTENTION! LeanCloud counter has security bug, see here how to solve it: https://github.com/theme-next/hexo-leancloud-counter-security. \n But you also can use LeanCloud without security, by set \'security\' option to \'false\'.');
             
           }
         },

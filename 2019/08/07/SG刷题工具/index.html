@@ -147,7 +147,7 @@ tpwidget("show");</script>
 <meta property="og:image" content="https://steamcn.com/static/image/smiley/steamcn_9/3011.gif">
 <meta property="og:image" content="https://i.loli.net/2019/08/07/dR7GfxVZ6IkH5yb.png">
 <meta property="og:image" content="https://i.loli.net/2019/08/07/HdbmtBL6syuWrEk.png">
-<meta property="og:updated_time" content="2019-08-07T03:05:33.861Z">
+<meta property="og:updated_time" content="2019-08-07T03:11:55.334Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="SG刷题工具">
 <meta name="twitter:description" content="开发步骤 登陆过程 对比答案 提价答案 在放暑假前萌生了这个想法，于是我开始思考我该如何实现在这个功能。最开始开发的初心是为了可以使做题目的时候可以方便点（现在当我没说）。 最开始的时候比较没有方向，不知道要先实现什么功能，于是我重新分析了一下网页的代码。（希望你们看得懂）     我们知道想要刷题最重要的步骤就是登陆（没有登陆玩个鸡），现在可以很清晰的看到登陆界面的两个文本域。">
@@ -208,46 +208,6 @@ tpwidget("show");</script>
   </style>
 </noscript>
 
-  $(document).ready(function () {
-    var SelectText = function(element) {
-        var doc = document
-            , text = element
-            , range, selection
-        ;    
-        if (doc.body.createTextRange) {
-            range = document.body.createTextRange();
-            range.moveToElementText(text);
-            range.select();
-        } else if (window.getSelection) {
-            selection = window.getSelection();        
-            range = document.createRange();
-            range.selectNodeContents(text);
-            selection.removeAllRanges();
-            selection.addRange(range);
-        }
-    };
-
-    $(".code").each(function() {
-        var code = $(this).get(0);
-        var button_html = 
-            '<div style="position: fixed;'                                                               +
-                        'right: 3%;'                                                                     +
-                        'margin-top: 5px;'                                                               +
-                        'font-family: consolas, Menlo, \'PingFang SC\', \'Microsoft YaHei\', monospace;' +
-                        'font-size: 10px;'                                                               +
-                        'cursor: pointer;'                                                               +
-                        'color: #e31436;'                                                                +
-                        '">'                                                                             +
-            '<span>全选</span>'                                                                          +
-            '</div>';
-        var button = $(button_html);
-
-        $(button).click(function() {
-            SelectText(code);
-        });
-        $(button).insertBefore(this);
-    });
-});
 </head>
 
 <body itemscope="" itemtype="http://schema.org/WebPage" lang="zh-CN">

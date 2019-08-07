@@ -493,9 +493,9 @@ tpwidget("show");</script>
                   <span class="post-meta-item-text">本文字数：</span>
                 
 				
-<!-- <span title="本文字数">1.9k</span> -->
+<!-- <span title="本文字数">3.2k</span> -->
 			  <span title="本文字数">
-                  1.2k字
+                  1.5k字
                 </span>
               
 
@@ -558,14 +558,14 @@ tpwidget("show");</script>
 <p><img src="https://i.loli.net/2019/08/07/LdBuzeXR1QgHZy7.png" alt="依赖.png"></p>
 <p>  安装好插件后就开始写代码啦！我的python是3.7.3版本的</p>
 <p>  request是Python中的网络请求的依赖，我们先导入到项目</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">`&#123;% codeblock lang:objc %&#125;[rectangle setX: <span class="number">10</span> y: <span class="number">10</span> width: <span class="number">20</span> height: <span class="number">20</span>];&#123;% endcodeblock %&#125;`</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"></span><br><span class="line">yname=input(<span class="string">'请输入你的姓名:'</span>)</span><br><span class="line">ypass=input(<span class="string">'请输入你的学号'</span>)</span><br><span class="line">url=<span class="string">"http://ks.zj.cn/Default.aspx"</span>  <span class="comment">#登陆地址</span></span><br><span class="line">S = requests.Session()  <span class="comment">#创建一-个session会话， 用来保持连接</span></span><br><span class="line">res1= S.get(<span class="string">"http://ks.zj.cn/Default.aspx"</span>) <span class="comment">#连接到登录页面</span></span><br></pre></td></tr></table></figure>
 <p>  因为需要获取res1这个内容中的几个隐藏域的内容，所以我们要用到正则表达式在python中最好用的正则表达式依赖是etree，所以我们也要导入</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">`&#123;% codeblock lang:objc %&#125;[rectangle setX: <span class="number">10</span> y: <span class="number">10</span> width: <span class="number">20</span> height: <span class="number">20</span>];&#123;% endcodeblock %&#125;`</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"><span class="keyword">from</span> lxml <span class="keyword">import</span> etree</span><br><span class="line"></span><br><span class="line">yname=input(<span class="string">'请输入你的姓名:'</span>)</span><br><span class="line">ypass=input(<span class="string">'请输入你的学号'</span>)</span><br><span class="line">url=<span class="string">"http://ks.zj.cn/Default.aspx"</span>  <span class="comment">#登陆地址</span></span><br><span class="line">S = requests.Session()  <span class="comment">#创建一-个session会话， 用来保持连接</span></span><br><span class="line">res1= S.get(<span class="string">"http://ks.zj.cn/Default.aspx"</span>) <span class="comment">#连接到登录页面</span></span><br><span class="line">html = etree.HTML(res1.text) <span class="comment">#把登陆页面的内容保存到htm1中</span></span><br></pre></td></tr></table></figure>
 <p>  我们要用到的是etree的lxml以及stree本身，正则表达式和通配符的意义差不多，我们需要到网页代码中进行查找，需要知道隐藏域的id</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">`&#123;% codeblock lang:objc %&#125;[rectangle setX: <span class="number">10</span> y: <span class="number">10</span> width: <span class="number">20</span> height: <span class="number">20</span>];&#123;% endcodeblock %&#125;`</span><br></pre></td></tr></table></figure>
-<p>你是不是已经忘记了一个细节，就是这么用姓名和学号啊<img src="https://steamcn.com/static/image/smiley/steamcn_9/3011.gif" alt="">！</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"><span class="keyword">from</span> lxml <span class="keyword">import</span> etree</span><br><span class="line"></span><br><span class="line">yname=input(<span class="string">'请输入你的姓名:'</span>)</span><br><span class="line">ypass=input(<span class="string">'请输入你的学号'</span>)</span><br><span class="line">url=<span class="string">"http://ks.zj.cn/Default.aspx"</span>  <span class="comment">#登陆地址</span></span><br><span class="line">S = requests.Session()  <span class="comment">#创建一-个session会话， 用来保持连接</span></span><br><span class="line">res1= S.get(<span class="string">"http://ks.zj.cn/Default.aspx"</span>) <span class="comment">#连接到登录页面</span></span><br><span class="line">html = etree.HTML(res1.text) <span class="comment">#把登陆页面的内容保存到htm1中</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">state=html.xpath(<span class="string">'//*[@id="__VIEWSTATE"]'</span>)[<span class="number">0</span>].get(<span class="string">'value'</span>)</span><br><span class="line">sta = html.xpath(<span class="string">'//*[@id="__EVENTVALIDATION"]'</span>)[<span class="number">0</span>].get(<span class="string">'value'</span>)</span><br><span class="line">dation = html.xpath(<span class="string">'//*[@id="__VIEWSTATEGENERATOR"]'</span>)[<span class="number">0</span>].get(<span class="string">'value'</span>)</span><br></pre></td></tr></table></figure>
+<p>你是不是已经忘记了一个细节，就是怎么用姓名和学号啊<img src="https://steamcn.com/static/image/smiley/steamcn_9/3011.gif" alt="">！</p>
 <p>我们需要一个字典来保存这些东西，还要把这些东西交给服务器了，这些requests库已经有现成的代码可以使用了所以代码变成这个样子</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">`&#123;% codeblock lang:objc %&#125;[rectangle setX: <span class="number">10</span> y: <span class="number">10</span> width: <span class="number">20</span> height: <span class="number">20</span>];&#123;% endcodeblock %&#125;`</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"><span class="keyword">from</span> lxml <span class="keyword">import</span> etree</span><br><span class="line"></span><br><span class="line">yname=input(<span class="string">'请输入你的姓名:'</span>)</span><br><span class="line">ypass=input(<span class="string">'请输入你的学号'</span>)</span><br><span class="line">url=<span class="string">"http://ks.zj.cn/Default.aspx"</span>  <span class="comment">#登陆地址</span></span><br><span class="line">S = requests.Session()  <span class="comment">#创建一-个session会话， 用来保持连接</span></span><br><span class="line">res1= S.get(<span class="string">"http://ks.zj.cn/Default.aspx"</span>) <span class="comment">#连接到登录页面</span></span><br><span class="line">html = etree.HTML(res1.text) <span class="comment">#把登陆页面的内容保存到htm1中</span></span><br><span class="line"></span><br><span class="line">state=html.xpath(<span class="string">'//*[@id="__VIEWSTATE"]'</span>)[<span class="number">0</span>].get(<span class="string">'value'</span>)</span><br><span class="line">sta = html.xpath(<span class="string">'//*[@id="__EVENTVALIDATION"]'</span>)[<span class="number">0</span>].get(<span class="string">'value'</span>)</span><br><span class="line">dation = html.xpath(<span class="string">'//*[@id="__VIEWSTATEGENERATOR"]'</span>)[<span class="number">0</span>].get(<span class="string">'value'</span>)</span><br><span class="line"></span><br><span class="line">n_login = &#123;</span><br><span class="line">    <span class="string">'__VIEWSTATE'</span>:state,</span><br><span class="line">    <span class="string">'__EVENTVALIDATION'</span>:sta,</span><br><span class="line">    <span class="string">'__VIEWSTATEGENERATOR'</span>:dation,</span><br><span class="line">    <span class="string">"xm"</span>:yname,</span><br><span class="line">    <span class="string">"xh"</span>:ypass,</span><br><span class="line">    <span class="string">'Button1'</span>:<span class="string">'登录'</span>, <span class="comment">#模拟点击登陆按钮</span></span><br><span class="line">            &#125;</span><br><span class="line">r = S.post(url,headers=headers,data=n_login)    <span class="comment">#把字典内容post到url</span></span><br></pre></td></tr></table></figure>
 <p>  你们可能会好奇，这个headers到底是什么，这些在浏览器中可以看到</p>
 <p><img src="https://i.loli.net/2019/08/07/dR7GfxVZ6IkH5yb.png" alt="headers.png"></p>
 <p>  就是这些东西，他们代表着向服务器宣誓我是某某某浏览器，并不是一个网络请求，因为我们进行post或者get行为的时候一般没有headers都会被服务器认为是非法请求而把你拒绝掉，所以我们要加上这段代码（UA很关键，可以没有其他内容，UA建议一定要先写）</p>
@@ -2569,7 +2569,7 @@ tpwidget("show");</script>
     
       <span class="post-meta-item-text">站点总字数&#58;</span>
     
-    <span title="站点总字数">11k</span>
+    <span title="站点总字数">12k</span>
   
 <!--
   
@@ -2580,7 +2580,7 @@ tpwidget("show");</script>
     
       <span class="post-meta-item-text">站点总阅读时长&#58;</span>
     
-    <span title="站点总阅读时长">18 mins.</span>
+    <span title="站点总阅读时长">20 mins.</span>
   
 -->
 </div>
@@ -2635,7 +2635,7 @@ setInterval("createtime()",250);
     <!-- 博客字数统计 -->
     <span class="site-pv">
       <i class="fa fa-pencil"></i>
-      博客全站共： <span class="post-count">6.8k</span> 字
+      博客全站共： <span class="post-count">7.1k</span> 字
     </span>
 </div>
 <!-- 新增访客统计代码 END-->

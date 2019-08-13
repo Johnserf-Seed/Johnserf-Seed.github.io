@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://17shiyan2.cn/photos/photoslist.json</loc>
+    
+    <lastmod>2019-08-07T05:18:53.853Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://17shiyan2.cn/photos/index.html</loc>
+    
+    <lastmod>2019-08-07T05:16:25.796Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://17shiyan2.cn/2019/08/07/SG%E5%88%B7%E9%A2%98%E5%B7%A5%E5%85%B7/</loc>
     
     <lastmod>2019-08-07T03:18:10.615Z</lastmod>
@@ -96,13 +110,6 @@
     <loc>https://17shiyan2.cn/2019/03/16/VB%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90/</loc>
     
     <lastmod>2019-03-16T10:25:13.578Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://17shiyan2.cn/photos/index.html</loc>
-    
-    <lastmod>2019-03-15T15:19:45.106Z</lastmod>
     
   </url>
   

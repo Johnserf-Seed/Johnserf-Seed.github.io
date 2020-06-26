@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://17shiyan2.cn/"/>
-  <updated>2020-06-26T10:48:59.309Z</updated>
+  <updated>2020-06-26T10:53:36.755Z</updated>
   <id>https://17shiyan2.cn/</id>
   
   <author>
@@ -21,16 +21,21 @@
     <link href="https://17shiyan2.cn/2020/06/26/%E7%BD%91%E9%A1%B5%E5%9F%BA%E6%9C%AC%E5%85%83%E7%B4%A0%E6%8F%92%E5%85%A5%E6%96%B9%E6%B3%95/"/>
     <id>https://17shiyan2.cn/2020/06/26/网页基本元素插入方法/</id>
     <published>2020-06-26T10:47:30.000Z</published>
-    <updated>2020-06-26T10:48:59.309Z</updated>
+    <updated>2020-06-26T10:53:36.755Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="网页基本元素插入方法"><a href="#网页基本元素插入方法" class="headerlink" title="网页基本元素插入方法"></a>网页基本元素插入方法</h2><p><em>右边的目录可以快速跳转指定网页元素插入方法，如果哪里有错误请评论留言或者私聊我。          ——SG</em></p><h4 id="超级链接"><a href="#超级链接" class="headerlink" title="超级链接"></a>超级链接</h4><ol><li>“插入”菜单-“超级链接”</li></ol><p><img src="https://tvax2.sinaimg.cn/large/006908GAly1gg5uuosqjsj307e0hdwer.jpg" alt="超级链接1"></p><ol start="2"><li>“插入”面板-“常用”选项卡-“超级链接”</li></ol><p><img src="https://tvax4.sinaimg.cn/large/006908GAly1gg5uwrweb7j30cp08ft9v.jpg" alt="超级链接2"></p><ol start="3"><li>选中文字-右击-“创建链接”</li></ol><p><img src="https://tva1.sinaimg.cn/large/006908GAly1gg5v06ky4ij30bc0h1jrx.jpg" alt="超级链接3"></p><ol start="4"><li>选中文字-在“属性”对话框中“链接”处输入URL</li></ol><p><img src="https://tva4.sinaimg.cn/large/006908GAly1gg5v2rc818j30jr0363yh.jpg" alt="超级链接4"></p><hr><h4 id="创建锚记链接"><a href="#创建锚记链接" class="headerlink" title="创建锚记链接"></a>创建锚记链接</h4><ol><li>“插入”菜单-“命名锚记”</li></ol><p><img src="https://tvax3.sinaimg.cn/large/006908GAly1gg5v65tjgkj307e0hgwey.jpg" alt="锚记链接1"></p><ol start="2"><li>“插入”面板-“常用”选项卡-“命名锚记”</li></ol><p><img src="https://tva1.sinaimg.cn/large/006908GAly1gg5v7o9ctej30d7059ab4.jpg" alt="锚记链接2"></p><ol start="3"><li>快捷键<strong>Ctrl+Alt+A</strong></li></ol><p><img src="https://tvax3.sinaimg.cn/large/006908GAly1gg5vagxcc0j30ao043mxi.jpg" alt="锚记链接3"></p><hr><h4 id="电子邮件链接"><a href="#电子邮件链接" class="headerlink" title="电子邮件链接"></a>电子邮件链接</h4><ol><li>“插入”菜单-“电子邮件链接”</li></ol><p><img src="https://tvax2.sinaimg.cn/large/006908GAly1gg5vdzicwsj307e0hi0t7.jpg" alt="电子邮件链接1"></p><ol start="2"><li>“插入”面板-“常用”选项卡-“电子邮件链接”</li></ol><p><img src="https://tva2.sinaimg.cn/large/006908GAly1gg5vg552paj30e5068t9u.jpg" alt="电子邮件链接2"></p><ol start="3"><li>选中文字-在“属性”对话框中“链接”处输入E-Mail</li></ol><p><img src="https://tvax2.sinaimg.cn/large/006908GAly1gg5vff4srjj30jn039jrd.jpg" alt="电子邮件链接3"></p><hr><h4 id="图像链接（非插入图像）"><a href="#图像链接（非插入图像）" class="headerlink" title="图像链接（非插入图像）"></a>图像链接（非插入图像）</h4><ol><li>选中图像-“属性”面板-“链接”输入URL</li></ol><p><img src="https://tva2.sinaimg.cn/large/006908GAly1gg5vlpx490j30o503emxb.jpg" alt="图像链接1"></p><ol start="2"><li>选中图像-右键-“创建链接”中选择目标文件</li></ol><p><img src="https://tva4.sinaimg.cn/large/006908GAly1gg5vntqxq6j30k30kcgmo.jpg" alt="图像链接2-1"></p><p><img src="https://tvax4.sinaimg.cn/large/006908GAly1gg5vou1cn3j30hq0dqdhh.jpg" alt="图像链接2-2"></p><ol start="3"><li>选中图像-“属性”面板-“矩形热点工具”</li></ol><p><img src="https://tvax2.sinaimg.cn/large/006908GAly1gg5vrrwhm3j30i60dwq3f.jpg" alt="图像链接3"></p><hr><h4 id="脚本链接"><a href="#脚本链接" class="headerlink" title="脚本链接"></a>脚本链接</h4>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="网页基本元素插入方法"><a href="#网页基本元素插入方法" class="headerlink" title="网页基本元素插入方法"></a>网页基本元素插入方法</h2><p><em>右边的目录可以快速跳转指定网页元素插入方法，如果哪里有错误请评论留言或者私聊我。          ——SG</em></p><h4 id="超级链接"><a href="#超级链接" class="headerlink" title="超级链接"></a>超级链接</h4><ol><li>“插入”菜单-“超级链接”</li></ol><p><img src="https://tvax2.sinaimg.cn/large/006908GAly1gg5uuosqjsj307e0hdwer.jpg" alt="超级链接1"></p><ol start="2"><li>“插入”面板-“常用”选项卡-“超级链接”</li></ol><p><img src="https://tvax4.sinaimg.cn/large/006908GAly1gg5uwrweb7j30cp08ft9v.jpg" alt="超级链接2"></p><a id="more"></a><ol start="3"><li>选中文字-右击-“创建链接”</li></ol><p><img src="https://tva1.sinaimg.cn/large/006908GAly1gg5v06ky4ij30bc0h1jrx.jpg" alt="超级链接3"></p><ol start="4"><li>选中文字-在“属性”对话框中“链接”处输入URL</li></ol><p><img src="https://tva4.sinaimg.cn/large/006908GAly1gg5v2rc818j30jr0363yh.jpg" alt="超级链接4"></p><hr><h4 id="创建锚记链接"><a href="#创建锚记链接" class="headerlink" title="创建锚记链接"></a>创建锚记链接</h4><ol><li>“插入”菜单-“命名锚记”</li></ol><p><img src="https://tvax3.sinaimg.cn/large/006908GAly1gg5v65tjgkj307e0hgwey.jpg" alt="锚记链接1"></p><ol start="2"><li>“插入”面板-“常用”选项卡-“命名锚记”</li></ol><p><img src="https://tva1.sinaimg.cn/large/006908GAly1gg5v7o9ctej30d7059ab4.jpg" alt="锚记链接2"></p><ol start="3"><li>快捷键<strong>Ctrl+Alt+A</strong></li></ol><p><img src="https://tvax3.sinaimg.cn/large/006908GAly1gg5vagxcc0j30ao043mxi.jpg" alt="锚记链接3"></p><hr><h4 id="电子邮件链接"><a href="#电子邮件链接" class="headerlink" title="电子邮件链接"></a>电子邮件链接</h4><ol><li>“插入”菜单-“电子邮件链接”</li></ol><p><img src="https://tvax2.sinaimg.cn/large/006908GAly1gg5vdzicwsj307e0hi0t7.jpg" alt="电子邮件链接1"></p><ol start="2"><li>“插入”面板-“常用”选项卡-“电子邮件链接”</li></ol><p><img src="https://tva2.sinaimg.cn/large/006908GAly1gg5vg552paj30e5068t9u.jpg" alt="电子邮件链接2"></p><ol start="3"><li>选中文字-在“属性”对话框中“链接”处输入E-Mail</li></ol><p><img src="https://tvax2.sinaimg.cn/large/006908GAly1gg5vff4srjj30jn039jrd.jpg" alt="电子邮件链接3"></p><hr><h4 id="图像链接（非插入图像）"><a href="#图像链接（非插入图像）" class="headerlink" title="图像链接（非插入图像）"></a>图像链接（非插入图像）</h4><ol><li>选中图像-“属性”面板-“链接”输入URL</li></ol><p><img src="https://tva2.sinaimg.cn/large/006908GAly1gg5vlpx490j30o503emxb.jpg" alt="图像链接1"></p><ol start="2"><li>选中图像-右键-“创建链接”中选择目标文件</li></ol><p><img src="https://tva4.sinaimg.cn/large/006908GAly1gg5vntqxq6j30k30kcgmo.jpg" alt="图像链接2-1"></p><p><img src="https://tvax4.sinaimg.cn/large/006908GAly1gg5vou1cn3j30hq0dqdhh.jpg" alt="图像链接2-2"></p><ol start="3"><li>选中图像-“属性”面板-“矩形热点工具”</li></ol><p><img src="https://tvax2.sinaimg.cn/large/006908GAly1gg5vrrwhm3j30i60dwq3f.jpg" alt="图像链接3"></p><hr><h4 id="脚本链接"><a href="#脚本链接" class="headerlink" title="脚本链接"></a>脚本链接</h4>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
-      
+      &lt;h2 id=&quot;网页基本元素插入方法&quot;&gt;&lt;a href=&quot;#网页基本元素插入方法&quot; class=&quot;headerlink&quot; title=&quot;网页基本元素插入方法&quot;&gt;&lt;/a&gt;网页基本元素插入方法&lt;/h2&gt;&lt;p&gt;&lt;em&gt;右边的目录可以快速跳转指定网页元素插入方法，如果哪里有错误请评论留言或者私聊我。          ——SG&lt;/em&gt;&lt;/p&gt;
+&lt;h4 id=&quot;超级链接&quot;&gt;&lt;a href=&quot;#超级链接&quot; class=&quot;headerlink&quot; title=&quot;超级链接&quot;&gt;&lt;/a&gt;超级链接&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;“插入”菜单-“超级链接”&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&quot;https://tvax2.sinaimg.cn/large/006908GAly1gg5uuosqjsj307e0hdwer.jpg&quot; alt=&quot;超级链接1&quot;&gt;&lt;/p&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;“插入”面板-“常用”选项卡-“超级链接”&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&quot;https://tvax4.sinaimg.cn/large/006908GAly1gg5uwrweb7j30cp08ft9v.jpg&quot; alt=&quot;超级链接2&quot;&gt;&lt;/p&gt;
     
     </summary>
     
@@ -71,9 +76,9 @@
       <category term="办公技巧" scheme="https://17shiyan2.cn/categories/%E5%8A%9E%E5%85%AC%E6%8A%80%E5%B7%A7/"/>
     
     
-      <category term="实用工具" scheme="https://17shiyan2.cn/tags/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/"/>
-    
       <category term="刷题" scheme="https://17shiyan2.cn/tags/%E5%88%B7%E9%A2%98/"/>
+    
+      <category term="实用工具" scheme="https://17shiyan2.cn/tags/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/"/>
     
   </entry>
   

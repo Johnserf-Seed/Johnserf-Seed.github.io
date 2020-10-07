@@ -528,7 +528,8 @@ tpwidget("show");</script>
 
       
         
-          <h1 id="Python编程中的10个小技巧"><a href="#Python编程中的10个小技巧" class="headerlink" title="Python编程中的10个小技巧"></a>Python编程中的10个小技巧</h1><h3 id="Tips1、-交换变量"><a href="#Tips1、-交换变量" class="headerlink" title="Tips1、    交换变量"></a>Tips1、    交换变量</h3><p>普遍的写法是利用一个中间变量tmp进行交换，例：</p>
+          <p><img src="https://img.shields.io/badge/python-v3.7.3-blue" alt="GitHub Pipenv locked Python version"></p>
+<h3 id="Tips1、-交换变量"><a href="#Tips1、-交换变量" class="headerlink" title="Tips1、    交换变量"></a>Tips1、    交换变量</h3><p>普遍的写法是利用一个中间变量tmp进行交换，例：</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">a = <span class="number">1</span>;b = <span class="number">2</span></span><br><span class="line"></span><br><span class="line">tmp = a;a = b;b = tmp</span><br><span class="line"></span><br><span class="line">print(a,b)</span><br></pre></td></tr></table></figure>
 <p>但是我们可以这样子写</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">a = <span class="number">1</span>;b = <span class="number">2</span></span><br><span class="line"></span><br><span class="line">a, b = b, a</span><br><span class="line"></span><br><span class="line">print(a,b)</span><br></pre></td></tr></table></figure>

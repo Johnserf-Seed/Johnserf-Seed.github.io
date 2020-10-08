@@ -136,7 +136,7 @@ tpwidget("show");</script>
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="https://img.shields.io/badge/python-v3.7.3-blue">
 <meta property="og:image" content="https://tva4.sinaimg.cn/large/006908GAly1gjgsqp2yk7g306o06ows4.gif">
-<meta property="og:updated_time" content="2020-10-07T08:18:35.883Z">
+<meta property="og:updated_time" content="2020-10-08T10:24:48.689Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Python编程中的10个小技巧">
 <meta name="twitter:description" content="Tips1、    交换变量普遍的写法是利用一个中间变量tmp进行交换，例： 12345a = 1;b = 2tmp = a;a = b;b = tmpprint(a,b) 但是我们可以这样子写 12345a = 1;b = 2a, b = b, aprint(a,b) 输出结果：  2,1">
@@ -576,7 +576,7 @@ tpwidget("show");</script>
 <h3 id="Tips7、-字典合并"><a href="#Tips7、-字典合并" class="headerlink" title="Tips7、    字典合并"></a>Tips7、    字典合并</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">a = &#123;<span class="string">"rose"</span>: <span class="string">"123456"</span>, <span class="string">"xiaoming"</span>: <span class="string">"abc123"</span>&#125;</span><br><span class="line">b = &#123;<span class="string">"lilei"</span>: <span class="string">"111111"</span>, <span class="string">"zhangsan"</span>: <span class="string">"12345678"</span>&#125;</span><br></pre></td></tr></table></figure>
 <p>假设a，b两字典均为账号密码，如果想要合并，我们的思路一开始也是利用c[]的空白字典存入，例：</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">c = &#123;&#125;</span><br><span class="line"><span class="keyword">for</span> k <span class="keyword">in</span> a:</span><br><span class="line">    c[k] = a[k]</span><br><span class="line"><span class="keyword">for</span> k <span class="keyword">in</span> b:</span><br><span class="line">    c[k] = b[k]</span><br><span class="line"></span><br><span class="line">print(c)</span><br></pre></td></tr></table></figure>
-<p>我们还可以用另一种解包(packing)的思维,例：</p>
+<p>我们还可以用另一种解包(unpacking)的思维,例：</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">c = &#123;**a, **b&#125;  <span class="comment">#**代表解包</span></span><br><span class="line"></span><br><span class="line">print(c)</span><br></pre></td></tr></table></figure>
 <p>pyt里的**代表着解包，是不是比写两个循环来的快捷呢</p>
 <p><strong>输出结果：</strong> <em>{‘rose’: ‘123456’, ‘xiaoming’: ‘abc123’, ‘lilei’: ‘111111’, ‘zhangsan’: ‘12345678’}</em></p>
